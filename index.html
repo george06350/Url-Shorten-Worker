@@ -13,20 +13,20 @@
 <body>
   <div class="d-flex align-items-start flex-wrap">
   <div class="card shadow m-3">
-    <h5 class="card-header">A URL Shortener created using free Cloudflare worker and KV</h5>
+    <h5 class="card-header">短網址服務</h5>
     <div class="card-body">
       <h5 class="card-title"> </h5>
 
       <div class="input-group mb-3">
 
-          <span class="input-group-text" id="basic-addon1">Long URL</span>
+          <span class="input-group-text" id="basic-addon1">原網址</span>
 
         <input type="text" class="form-control" id="longURL" aria-describedby="basic-addon1" placeholder="Example: https://example.com/" oninput="loadUrlList()">
       </div>
 
       <div class="input-group mb-3">
 
-          <span class="input-group-text" id="basic-addon2">Custom Short URL</span>
+          <span class="input-group-text" id="basic-addon2">自定義後綴</span>
 
         <input type="text" class="form-control" id="keyPhrase" aria-describedby="basic-addon2" placeholder="As you wish">
       </div>
@@ -37,16 +37,16 @@
 
       <div class="input-group mb-3">
 
-          <span class="input-group-text" id="basic-addon3">password</span>
+          <span class="input-group-text" id="basic-addon3">訪問密碼</span>
 
         <input class="form-control" type="text" value="__PASSWORD__" readonly="true" id="passwordText" aria-describedby="basic-addon3">
       </div>
 
     </div>
     
-    <div class="card-footer">
+    <-- <div class="card-footer">
       <span> <a href="https://github.com/crazypeace/Url-Shorten-Worker/" target="_self">Fork me on GitHub</a> </span>
-    </div>
+    </div> -->
   </div>
 
   <div class="card shadow m-3">
