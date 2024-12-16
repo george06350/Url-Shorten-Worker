@@ -11,7 +11,7 @@ let buildValueItemFunc = buildValueTxt
 
 function shorturl() {
   if (document.querySelector("#longURL").value == "") {
-    alert("Url cannot be empty!")
+    alert("原網址欄目不得為空！")
     return
   }
   
@@ -51,7 +51,7 @@ function shorturl() {
     modal.show();
 
   }).catch(function (err) {
-    alert("Unknow error. Please retry!");
+    alert("位置錯誤，請重新嘗試！");
     console.log(err);
     document.getElementById("addBtn").disabled = false;
     document.getElementById("addBtn").innerHTML = 'Shorten it';
